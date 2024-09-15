@@ -1,0 +1,17 @@
+Console Commands & CVARs
+
+- pcr_enable : Enable/Disable this Feature.
+- pcr_allow_custom : Allow custom prop models to be added outside from the map's props.
+- pcr_enable_prop_ban : Enable Prop Banning. This will also includes the ban list from PH:E Prop Bans list too.
+- pcr_max_enable : Enable/Disable Limit the maximum of addition to the Prop Chooser.
+- pcr_max_prop_list : Maximum number of Limit to be added to the Prop Chooser. Default is 100.
+- pcr_max_use : Maximum Usage after Props chosen their Prop. Default is 3.
+- pcr_default_key_menu : Default Key to open up a menu. Default is KEY_F8 (Value: 9). 
+  To change/bind to other keys, please see here: https://wiki.garrysmod.com/page/Enums/BUTTON_CODE
+
+** Experimental Section **
+- pcr_enable_bbox_limit : Enable/Disable Prop's Bounding Box (AABB)/Hull Size Limit. Purpose is to prevent using any larger objects to be set which might be unexpected.
+- pcr_bbox_max_height : Entity Max Height of Bounding Box (AABB)/Hull Size. Default is 96, 72 (Standard Human/Kleiner model).
+- pcr_bbox_max_width : Entity Max Width of Bounding Box (AABB)/Hull Size. Default is 72, 56, or 48. Use 32 for Standard Human/Kleiner model.
+
+For full documentation, please see 'README.md' file.
